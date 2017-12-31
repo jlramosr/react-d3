@@ -38,6 +38,7 @@ class App extends Component {
           />
           <Chart
             data={data3}
+            rangeX={[0,22*data3.length]}
             rangeZ={[1,20]}
           />
           <Chart
